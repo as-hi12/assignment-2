@@ -1,0 +1,79 @@
+/* Background & base font */
+body {
+  background-color: #f7f1e1; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3a3a3a;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 600px;
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+
+.title {
+  font-family: 'Georgia', serif;
+  font-size: 44.8px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+
+.para_1 {
+  font-style: italic;
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+
+.image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image img {
+  width: 320px; /* fixed width */
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Section headings (Ingredients & Recipe) */
+.ing, .recipe {
+  font-size: 1.6rem;
+  color: #34495e;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 6px;
+}
+
+/* Lists styling */
+ul, ol {
+  padding-left: 25px;
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Custom bullets for unordered list */
+ul {
+  list-style-type: square;
+  margin-bottom: 30px;
+}
+
+/* Spacing for ordered list */
+ol li {
+  margin-bottom: 10px;
+}
